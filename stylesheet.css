@@ -1,0 +1,155 @@
+
+          .navbar .navbar-nav > li > a 
+          {
+          padding: 27px 15px;
+          }
+          .navbar-brand
+          {
+            font-size: 35px !important;
+            font-family:"Inder", sans-serif;
+            font-weight: bolder;
+            letter-spacing: normal;
+            
+          }
+          .navbar-expand-lg .navbar-collapse {
+            display: flex !important;
+            flex-basis: auto;
+            font-family: "Inter", sans-serif;
+          }
+          .navbar-light
+          {
+            background-color: #003a6c !important;
+          }
+          h3
+          {
+            text-align: center;
+            font-size: 34px;
+            padding-top: 60px;
+            padding-bottom: 110px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-bottom: -70px;
+            text-transform: uppercase;
+          }
+          .header
+          {
+            place-content: center;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 17px;
+            padding-bottom: 250px;
+            line-height: 0px;
+          }
+         #contact
+         {
+          margin-top: 35px;
+          margin-left: 250px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+         }
+         .card
+         {
+          display: inline-flex;
+          margin: 3rem;
+          align-items: center;
+          justify-content: center;
+          min-height: 100px;
+         }
+         .card-text
+         {
+            color: #003a6c;
+            font-size: 20px;
+            font-weight: bold;
+            
+         }
+         .navbar a
+         {
+            font-size: 20px;
+         }
+         .contact
+         {
+            text-align: center;
+         }
+         
+         .col-12
+        {
+            margin-left: 260px;
+         }
+         #sub-title
+         {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding-top: 30px;
+            text-align: center;
+         }
+         .hotels
+         {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 10px;
+            font-size: 35px;
+         }
+         .card-text
+         {
+            font-size: 18px;
+            color: #455051;
+            font-weight: lighter;
+         }
+         .img-fluid
+         {
+            object-fit: cover;
+            width: 100%;
+            height: 25vh;
+         }
+         .card-title
+         {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-transform: uppercase;
+         }
+         .checked
+         {
+            color:orange;
+         }
+         .about
+         {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-transform: uppercase;
+            text-align: center;
+            padding-top: 40px;
+         }
+         .sub-heading
+         {
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+         }
+         .about-1
+         {
+            float: left;
+            width: 50%;
+            padding-left: 200px;
+            padding-top: 50px;
+            
+         }
+         .about-2
+         {
+             padding-right: 20px;
+            padding-top: 50px;
+         }
+         
+         .left
+         {
+            width: 250px;
+            padding-top: 30px;
+        
+         }
+         .left
+         {
+            margin-left: 20px;
+            justify-content: flex-end;
+         }
+         .gallery
+         {
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+         }
+         .btn-secondary {
+            background-color: #0a4c86;
+         }

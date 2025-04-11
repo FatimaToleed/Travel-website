@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tours and Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <style>
+      html, body {
+      min-height: 100%;
+      }
+      body, div, form { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      color: #666;
+      line-height: 22px;
+      }
+      h1, h4 {
+      margin: 15px 0 4px;
+      }
+      h1 {
+      font-weight: 400;
+      }
+      .testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 3px;
+      }
+      form {
+      width: 100%;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 2px 5px #ccc; 
+      }
+      input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      vertical-align: middle;
+      }
+      input:hover {
+      border: 1px solid #1c87c9;
+      }
+      table {
+      width: 100%;
+      }
+      h4 {
+      padding: 15px 0 5px;
+      }
+      .question-answer label {
+      display: inline-block;
+      padding: 0 20px 15px 0;
+      }
+      .question-answer input {
+      width: auto;
+      }
+      th, td {
+      width: 17%;
+      padding: 15px 0;
+      text-align: center;
+      vertical-align: unset;
+      line-height: 18px;
+      font-weight: 400;
+      word-break: break-all;
+      border-bottom: 1px solid #095484;
+      color: #095484;
+      }
+      .first-col {
+      width: 26%;
+      text-align: left;
+      }
+      .btn-block {
+      margin-top: 20px;
+      text-align: center;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      -webkit-border-radius: 5px; 
+      -moz-border-radius: 5px; 
+      border-radius: 5px; 
+      background-color: #095484; 
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+      button:hover {
+      background-color: #0666a3;
+      }
+      @media (min-width: 568px) {
+      th, td {
+      word-break: keep-all;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="travel website.htm">Travel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="travel website.htm">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hotels.htm">Hotels</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about .htm">About</a></li>
+                  <li><a class="dropdown-item" href="services.htm">Services</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="shop.htm">Shop</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.htm">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="feedback.htm">Feedback</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.htm">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="testbox">
+      <form action="/">
+        <h1>Hotel Feedback Form</h1>
+        <p class="hotel">How was your stay at our hotel? Were the accommodations suited? Help us improve the quality of our hotel by giving us your feedback. Thank you!</p>
+        <table>
+          <tr>
+            <th class="first-col"></th>
+            <th>Excellent</th>
+            <th>Good</th>
+            <th>Fair</th>
+            <th>Poor</th>
+          </tr>
+          <tr>
+            <td class="first-col">How did our front office staff behave during your stay?</td>
+            <td><input type="radio" value="none" name="front" /></td>
+            <td><input type="radio" value="none" name="front" /></td>
+            <td><input type="radio" value="none" name="front" /></td>
+            <td><input type="radio" value="none" name="front" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">How did you find the overall cleanliness of our hotel?</td>
+            <td><input type="radio" value="none" name="name" /></td>
+            <td><input type="radio" value="none" name="name" /></td>
+            <td><input type="radio" value="none" name="name" /></td>
+            <td><input type="radio" value="none" name="name" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">How did you find the cleanliness of your room?</td>
+            <td><input type="radio" value="none" name="find" /></td>
+            <td><input type="radio" value="none" name="find" /></td>
+            <td><input type="radio" value="none" name="find" /></td>
+            <td><input type="radio" value="none" name="find" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">How was house keeping behaving during your stay?</td>
+            <td><input type="radio" value="none" name="keeping" /></td>
+            <td><input type="radio" value="none" name="keeping" /></td>
+            <td><input type="radio" value="none" name="keeping" /></td>
+            <td><input type="radio" value="none" name="keeping" /></td>
+          </tr>￼
+          <tr>
+            <td class="first-col">How was the ambiance of the hotel's restaurant?</td>
+            <td><input type="radio" value="none" name="ambiance" /></td>
+            <td><input type="radio" value="none" name="ambiance" /></td>
+            <td><input type="radio" value="none" name="ambiance" /></td>
+            <td><input type="radio" value="none" name="ambiance" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">How was the restaurant's food from our hotel?</td>
+            <td><input type="radio" value="none" name="restaurant's" /></td>
+            <td><input type="radio" value="none" name="restaurant's" /></td>
+            <td><input type="radio" value="none" name="restaurant's" /></td>
+            <td><input type="radio" value="none" name="restaurant's" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">How would you rate our Travel Desk's staff?</td>
+            <td><input type="radio" value="none" name="rate" /></td>
+            <td><input type="radio" value="none" name="rate" /></td>
+            <td><input type="radio" value="none" name="rate" /></td>
+            <td><input type="radio" value="none" name="rate" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">How would you rate our Spa services?</td>
+            <td><input type="radio" value="none" name="Spa" /></td>
+            <td><input type="radio" value="none" name="Spa" /></td>
+            <td><input type="radio" value="none" name="Spa" /></td>
+            <td><input type="radio" value="none" name="Spa" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">How would you rate our hotel, overall?</td>
+            <td><input type="radio" value="none" name="hotel" /></td>
+            <td><input type="radio" value="none" name="hotel" /></td>
+            <td><input type="radio" value="none" name="hotel" /></td>
+            <td><input type="radio" value="none" name="hotel" /></td>
+          </tr>
+        </table>
+        <h4>Would you recommend our hotel to other people?</h4>
+        <div class="question-answer">
+          <label><input type="radio" value="none" name="recommend" /> yes</label>
+          <label><input type="radio" value="none" name="recommend" /> no</label>
+        </div>
+        <div class="btn-block">
+          <button type="submit" href="/">Send Feedback</button>
+        </div>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
