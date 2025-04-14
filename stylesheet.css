@@ -1,5 +1,4 @@
-
-          .navbar .navbar-nav > li > a 
+.navbar .navbar-nav > li > a 
           {
           padding: 27px 15px;
           }
@@ -9,7 +8,6 @@
             font-family:"Inder", sans-serif;
             font-weight: bolder;
             letter-spacing: normal;
-            
           }
           .navbar-expand-lg .navbar-collapse {
             display: flex !important;
@@ -48,17 +46,20 @@
          .card
          {
           display: inline-flex;
-          margin: 3rem;
           align-items: center;
           justify-content: center;
           min-height: 100px;
+          max-width: 300px;
+          box-sizing: border-box;
+          border: 1px solid #ddd; /* Optional: Add a border to the cards */
+          border-radius: 8px; /* Optional: Add rounded corners */
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
          }
          .card-text
          {
-            color: #003a6c;
-            font-size: 20px;
-            font-weight: bold;
-            
+            color: #555;
+            font-size: 0.9rem;
+            font-weight: lighter;
          }
          .navbar a
          {
@@ -68,7 +69,6 @@
          {
             text-align: center;
          }
-         
          .col-12
         {
             margin-left: 260px;
@@ -87,12 +87,6 @@
             padding-bottom: 10px;
             font-size: 35px;
          }
-         .card-text
-         {
-            font-size: 18px;
-            color: #455051;
-            font-weight: lighter;
-         }
          .img-fluid
          {
             object-fit: cover;
@@ -101,12 +95,15 @@
          }
          .card-title
          {
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family: 'Georgia', serif;
             text-transform: uppercase;
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #003a6c;
          }
          .checked
          {
-            color:orange;
+            color:orange; /* Highlight the stars */
          }
          .about
          {
@@ -138,7 +135,6 @@
          {
             width: 250px;
             padding-top: 30px;
-        
          }
          .left
          {
@@ -153,3 +149,35 @@
          .btn-secondary {
             background-color: #0a4c86;
          }
+         .bottom-page .row {
+            display: flex;
+            justify-content: space-between; 
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+         }
+         .container {
+            margin-top: 20px; /* Add spacing at the top */
+         }
+         .caption {
+            text-transform: capitalize!important; /* Ensures the text is capitalized */
+            display: block;
+            text-align: center;
+            font-size: 18px; /* Adjusted text size */
+            margin-top: 8px; /* Adds space between the icon and text */
+            color: #333; /* Optional: Adjust text color */
+         }
+         .top-item, .bottom-item {
+            display: flex;
+            justify-content: space-evenly; /* Ensures equal spacing between icons and text */
+            align-items: center; /* Align icons and text vertically */
+            margin: 0 auto; /* Centers the entire container */
+            max-width: 1200px; /* Optional: Limits the width of the container */
+            padding: 0 20px; /* Adds padding on the left and right */
+         }
+         
+         .top-item i, .bottom-item i {
+            font-size: 2.5rem; /* Adjusted icon size */
+            color: #000000; /* Optional: Add a color to the icons */
+         }
+
